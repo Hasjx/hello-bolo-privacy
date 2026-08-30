@@ -1,185 +1,189 @@
 <!DOCTYPE html>
-<html lang="en-GB">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Privacy Policy — Hello Bolo</title>
-<meta name="description" content="Hello Bolo collects no data. Everything stays on your device.">
+<title>Hello Bolo — Privacy Policy</title>
 <style>
-  :root{
-    --ink:#141221;
-    --ink-soft:#4a4560;
-    --bg:#F3F1FB;
-    --card:#ffffff;
-    --violet:#4B37C8;
-    --edge:#E1DDF2;
+  :root {
+    --ink: #1c2321;
+    --muted: #5a6663;
+    --rule: #e2e0d9;
+    --bg: #fdfcf9;
+    --accent: #0f6b5c;
   }
-  *{box-sizing:border-box}
-  html{-webkit-text-size-adjust:100%}
-  body{
-    margin:0;
-    background:var(--bg);
-    color:var(--ink);
-    font:400 17px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ink: #e9ece9; --muted: #9aa5a1; --rule: #2b3331;
+      --bg: #15191a; --accent: #4bb096;
+    }
   }
-  .wrap{max-width:44rem;margin:0 auto;padding:3rem 1.25rem 5rem}
-  header{margin-bottom:2.5rem}
-  .eyebrow{
-    font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;
-    font-weight:600;color:var(--violet);margin:0 0 .6rem
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    -webkit-text-size-adjust: 100%;
   }
-  h1{font-size:2.1rem;line-height:1.15;letter-spacing:-.02em;margin:0 0 .5rem;font-weight:700}
-  .updated{color:var(--ink-soft);font-size:.95rem;margin:0}
-  .lede{
-    margin:2rem 0 0;padding:1.25rem 1.4rem;background:var(--card);
-    border:1px solid var(--edge);border-radius:16px;font-size:1.05rem
+  .wrap { max-width: 40rem; margin: 0 auto; padding: 2rem 1.25rem 4rem; }
+  header { border-bottom: 1px solid var(--rule); padding-bottom: 1rem; margin-bottom: 2rem; }
+  .brand { font-weight: 700; letter-spacing: -0.01em; color: var(--accent); }
+  h1 { font-size: 1.75rem; line-height: 1.25; margin: 1.25rem 0 0.35rem; }
+  .meta { color: var(--muted); font-size: 0.9rem; margin: 0; }
+  h2 {
+    font-size: 1.05rem; margin: 2.25rem 0 0.4rem; line-height: 1.35;
   }
-  .lede strong{font-weight:650}
-  .urdu{
-    display:block;margin-top:.7rem;color:var(--ink-soft);
-    direction:rtl;text-align:right;font-size:1.05rem;line-height:2
+  p { margin: 0.6rem 0; }
+  ul { margin: 0.6rem 0; padding-left: 1.25rem; }
+  li { margin: 0.3rem 0; }
+  a { color: var(--accent); }
+  .lede { font-size: 1.05rem; }
+  .urdu {
+    color: var(--muted); font-size: 1rem; margin-top: 0.5rem;
+    direction: rtl; text-align: right;
   }
-  h2{
-    font-size:1.15rem;letter-spacing:-.01em;margin:2.6rem 0 .6rem;font-weight:650;
-    padding-top:1.6rem;border-top:1px solid var(--edge)
+  .roman { color: var(--muted); font-size: 0.95rem; margin-top: 0.15rem; }
+  footer {
+    margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--rule);
+    color: var(--muted); font-size: 0.9rem;
   }
-  h2:first-of-type{border-top:0;padding-top:0}
-  p{margin:0 0 1rem}
-  ul{margin:0 0 1rem;padding-left:1.15rem}
-  li{margin:.35rem 0}
-  a{color:var(--violet);text-underline-offset:2px}
-  a:focus-visible{outline:2px solid var(--violet);outline-offset:3px;border-radius:3px}
-  footer{
-    margin-top:3.5rem;padding-top:1.5rem;border-top:1px solid var(--edge);
-    color:var(--ink-soft);font-size:.9rem
-  }
-  @media (max-width:480px){ h1{font-size:1.7rem} .wrap{padding-top:2rem} }
 </style>
 </head>
 <body>
 <div class="wrap">
 
 <header>
-  <p class="eyebrow">Hello Bolo</p>
-  <h1>Privacy Policy</h1>
-  <p class="updated">Last updated: 19 August 2026 · Applies to version 1.0</p>
-
-  <div class="lede">
-    <strong>Hello Bolo collects no data at all.</strong> The app makes no network
-    requests of any kind. There is no account, no sign-in, and nothing you do in
-    the app ever leaves your phone.
-    <span class="urdu">ہیلو بولو کوئی معلومات جمع نہیں کرتا۔ ایپ انٹرنیٹ سے کوئی رابطہ نہیں کرتی، کوئی اکاؤنٹ نہیں چاہیے، اور آپ جو کچھ ایپ میں کرتے ہیں وہ آپ کے فون سے باہر نہیں جاتا۔</span>
-  </div>
+  <div class="brand">Hello Bolo</div>
 </header>
 
+<h1>Privacy Policy</h1>
+<p class="meta">Last updated: 30 August 2026 · Applies to Hello Bolo version 1.1.0 and later</p>
+
+<p class="lede">Hello Bolo counts taps, not people. The app collects usage
+statistics so the lessons and questions can be made better. It never collects
+your name, your contact details, or the words you type.</p>
+<p class="urdu">ایپ کلکس گنتی ہے، لوگ نہیں۔</p>
+<p class="roman">App clicks ginti hai, log nahin.</p>
+
 <h2>Who is responsible</h2>
-<p>
-  Hello Bolo is made by Hassan Javed, based in the United Kingdom. Because the
-  app processes no personal data, there is no data controller relationship to
-  describe under the UK GDPR — but if you have a concern, please write to us
-  first at <a href="mailto:hsnjvx@outlook.com">hsnjvx@outlook.com</a>. You also
-  have the right to raise a concern with the Information Commissioner's Office
-  at <a href="https://ico.org.uk">ico.org.uk</a>.
-</p>
+<p>Hello Bolo is made by Hassan Javed in the United Kingdom, who is
+responsible for the information described here. You can write to
+<a href="mailto:hsnjvx@outlook.com">hsnjvx@outlook.com</a> at any time.</p>
 
-<h2>No account, no sign-in</h2>
-<p>
-  Hello Bolo never asks you to register. We do not know who you are, we hold no
-  name, email address, phone number or device identifier, and there is nothing
-  about you for us to lose, sell or hand over.
-</p>
+<h2>Free, with no account</h2>
+<p>Hello Bolo is free. There is nothing to sign up for and nothing to log in
+to, so we do not know who you are.</p>
 
-<h2>Nothing is sent anywhere</h2>
-<p>
-  The app contains no code that contacts a server. What you tap, search for,
-  read or practise is never transmitted. This is not a promise about how we
-  behave — it is how the app is built. There is no network layer to switch on.
-</p>
-
-<h2>All the lessons are already inside the app</h2>
-<p>
-  Every conversation, phrase and word is stored inside the app when you install
-  it. Nothing is downloaded afterwards. This is why Hello Bolo works with no
-  signal at all — in a hospital basement, on the Underground, or with no data
-  left on your plan.
-</p>
+<h2>The app works offline</h2>
+<p>Every lesson works with no signal at all. All the situations, words and
+phrases arrive once, with the app, and nothing is fetched later. The only
+thing the app ever sends is the usage statistics described below, and no part
+of the app waits for them.</p>
 
 <h2>Your progress stays on your phone</h2>
-<p>
-  What you have completed, which cards you found tricky, and your settings are
-  saved locally on your device. They are never uploaded, backed up to us, or
-  shared. Deleting the app deletes all of it permanently, and we have no way to
-  restore it.
-</p>
+<p>Your settings and your progress — the lessons you have finished, the words
+you know, and your answers — are stored on your device and are never sent
+anywhere. Deleting the app removes them.</p>
 
-<h2>No analytics, no advertising, no tracking</h2>
-<p>
-  Hello Bolo contains no analytics tools, no advertising, and no third-party
-  software kits of any kind. The app is built entirely with Apple's own
-  frameworks. Nobody is measuring you.
-</p>
-
-<h2>Reminders</h2>
-<p>
-  You can turn on two optional daily reminders — a practice nudge and a word of
-  the day. They are switched off unless you turn them on, iOS asks your
-  permission at that moment, and everything about them happens on your device:
-  the reminder is scheduled locally and its text is chosen locally. No reminder
-  is ever sent from a server, and no reminder names what you have been reading.
-</p>
-
-<h2>Pronunciation audio</h2>
-<p>
-  When you tap the speaker button, the phrase is spoken by the voice built into
-  iOS. The app does not record you, does not use the microphone, and asks for no
-  microphone permission.
-</p>
-
-<h2>The two places the app hands you over</h2>
+<h2>What the usage statistics contain</h2>
+<p>The app keeps a small record on your phone and sends it on. It covers:</p>
 <ul>
-  <li><strong>Contact us</strong> opens your own email app with a message ready to send. What happens after that is governed by your email provider.</li>
-  <li><strong>Rate Hello Bolo</strong> opens Apple's review sheet. Anything you write there goes to Apple, not to us, and is covered by Apple's privacy policy.</li>
+  <li>which screens, lessons, words and questions are used;</li>
+  <li>whether an answer was right, wrong, or one you asked to be shown;</li>
+  <li>how you practise — flashcards, questions, sentence building or review;</li>
+  <li>how many results a search returned and which one you tapped;</li>
+  <li>whether you played audio, and whether you used the slower setting;</li>
+  <li>whether reminders are switched on, and whether one opened the app;</li>
+  <li>how long the app is open;</li>
+  <li>your app version, whether this is a phone or a tablet, and your display
+      choices.</li>
 </ul>
 
-<h2>What Apple sees</h2>
-<p>
-  Downloading Hello Bolo is a transaction with Apple, not with us. Apple gives
-  developers anonymous, aggregate figures — how many people installed the app in
-  a given country, for example. We never see who you are, and we receive nothing
-  about what you do inside the app.
-</p>
+<h2>Why</h2>
+<p>To make the lessons and questions better — which ones people use, which
+are too hard, and which parts of the app nobody finds. There is no other
+purpose. Nothing is used to profile you or to advertise to you.</p>
+
+<h2>What is never collected</h2>
+<p>Your name, your email address, your phone number, or your location. And
+never the words you type or search for — only how many results appeared and
+which one you tapped.</p>
+
+<h2>The random ID</h2>
+<p>The statistics carry a random ID created on your phone. It identifies that
+copy of the app, not you: it is not linked to your name and cannot be traced
+back to you. It stays on your phone until you turn the statistics off or
+delete the app, and turning them on again creates a new one.</p>
+
+<h2>Where the statistics go, and for how long</h2>
+<p>They are sent securely to PostHog, which stores them in the European Union
+on our behalf and may use them only to help improve Hello Bolo. They are not
+sold, and they are not shared with anyone else.</p>
+<p>The individual records are kept for 30 days and then deleted. What remains
+after that is overall totals — counts that describe everybody together and
+cannot be traced to any one phone. We keep those totals long-term, because
+they are what shows whether the app is getting better over the years.</p>
+
+<h2>Turning the statistics off</h2>
+<p>Settings ▸ Privacy ▸ Share usage statistics. Turning it off stops
+everything, deletes the random ID and deletes anything still waiting to be
+sent. The app works exactly the same either way.</p>
+
+<h2>No advertising, nothing sold</h2>
+<p>There is no advertising in Hello Bolo, nothing about you is ever sold, and
+there is no third-party code inside the app.</p>
+
+<h2>Reminders</h2>
+<p>The two reminders in Settings are optional and start switched off. If you
+turn one on, your phone asks permission once, and the reminders are then
+planned and delivered by that phone alone. Nothing about them is sent
+anywhere, and switching them off removes them.</p>
+
+<h2>Pronunciation audio</h2>
+<p>The voice you hear is your phone's own built-in speech. The app does not
+record you, does not use the microphone, and asks for no microphone
+permission.</p>
+
+<h2>The two places the app hands you over</h2>
+<p><strong>Contact us</strong> opens your own email app with a message ready
+to send. If you send it, your email address and whatever you write reach us,
+and we use them only to answer you.</p>
+<p><strong>Rate Hello Bolo</strong> opens Apple's review sheet on iPhone, or
+the Play Store on Android. What happens there is Apple's or Google's, not
+ours, and we receive no personal information from it.</p>
+<p>Apple and Google also give us anonymous, aggregate figures of their own —
+how many people installed the app in a country, for example. We cannot
+identify anyone from those.</p>
+
+<h2>Your rights</h2>
+<p>You have the right to be told how your information is used, to ask for a
+copy of it, to have it corrected or deleted, to restrict how it is used, to
+object to its use, and to receive it in a portable form.</p>
+<p>The quickest way to stop everything is the switch in Settings, which takes
+effect immediately. Because the statistics carry no name and no account, we
+may not be able to find your records from an email address alone — tell us
+what you need and we will help as far as we can. Write to
+<a href="mailto:hsnjvx@outlook.com">hsnjvx@outlook.com</a>.</p>
+<p>If you are unhappy with how we have handled your information, you can
+complain to the UK Information Commissioner's Office at
+<a href="https://ico.org.uk">ico.org.uk</a>.</p>
 
 <h2>Children</h2>
-<p>
-  Hello Bolo is written for adults but is safe for all ages, and is rated 4+.
-  Since the app collects no information from anyone, it collects none from
-  children either.
-</p>
+<p>Hello Bolo is made for adults learning English. It is not directed at
+children.</p>
 
 <h2>What this app is not</h2>
-<p>
-  Hello Bolo teaches the English people use in everyday situations. It is not
-  legal, medical, financial or immigration advice, and it is not connected to
-  the NHS, any council, school, bank or government body. For advice about your
-  own situation, speak to the organisation concerned or a qualified
-  professional.
-</p>
+<p>Hello Bolo teaches the English people use in everyday situations. It is
+not legal, medical, financial or immigration advice, and it is not connected
+to the NHS, any council, school, bank or government body. For advice about
+your own situation, speak to the organisation concerned or a qualified
+professional.</p>
 
 <h2>Changes to this policy</h2>
-<p>
-  This policy describes version 1.0 of Hello Bolo. If a future version ever
-  changes what the app does, this page will be updated before that version is
-  released, and the date at the top will change with it.
-</p>
-
-<h2>Contact</h2>
-<p>
-  Questions about anything on this page:
-  <a href="mailto:hsnjvx@outlook.com">hsnjvx@outlook.com</a>
-</p>
+<p>If any of this changes, this page and the app's App Store and Google Play
+privacy information will be updated before the new version is released.</p>
 
 <footer>
-  © 2026 Hassan Javed · <a href="./index.html">Support</a>
+  © 2026 Hassan Javed · <a href="mailto:hsnjvx@outlook.com">hsnjvx@outlook.com</a>
 </footer>
 
 </div>
